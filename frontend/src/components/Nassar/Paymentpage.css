@@ -1,0 +1,137 @@
+.payment-container {
+    max-width: 700px;
+    background: #2B2B2B; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 40px auto; 
+    padding: 32px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  }
+  
+  .payment-container:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    z-index: -1;
+    background: #002350; 
+    transform: rotate(-10deg);
+  }
+  .expiry-wrapper {
+    display: flex;
+   
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .expiry-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    height: 40px; 
+  }
+  
+  .expiry-input:first-child {
+    border-right: 1px solid #ccc;
+  }
+  
+  .expiry-input:focus {
+    outline: none;
+  }
+  .payment-header {
+    color: #FFFFFF; 
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .is-invalid {
+    border-color: #dc3545;
+  }
+  
+  .invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #dc3545; 
+  }
+  
+  .is-invalid + .invalid-feedback {
+    display: block;
+  }
+  
+  .payment-method-selector {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    justify-content: space-around; 
+  }
+  
+  .payment-method-btn {
+    flex-grow: 1; 
+    margin: 0 10px; 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .payment-method-btn:hover, .payment-method-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .payment-form {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .payment-submit-btn {
+    display: block; 
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 100%; 
+  }
+  
+  .payment-submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,.25);
+  }
+  
+  .form-label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #FFFFFF; 
+    font-weight: 500;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .payment-container {
+      padding: 16px;
+    }
+  
+    .payment-method-btn, .payment-submit-btn {
+      margin: 0; 
+    }
+  }

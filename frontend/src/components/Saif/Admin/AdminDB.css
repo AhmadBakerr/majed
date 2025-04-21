@@ -1,0 +1,63 @@
+.terminal {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #172026; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .terminal h1, .terminal h2 {
+    color: #F26800; 
+  }
+  
+  .terminal button {
+    background-color: #1e1e1e;
+    color: #F26800; 
+    border: 1px solid #F26800; 
+    padding: 5px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .terminal button:hover {
+    background-color: #F26800;
+    color: #1e1e1e;
+  }
+  
+  .terminal input[type="text"] {
+    background-color: #1e1e1e;
+    color: #F26800;
+    border: 1px solid #F26800; 
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .terminal .document {
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .terminal .document label {
+    color: #F26800; 
+  }
+  
+  .terminal .document button {
+    background-color: #1e1e1e;
+    color: #F26800; 
+    border: 1px solid #F26800; 
+    padding: 5px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .terminal .document button:hover {
+    background-color: #F26800;
+    color: #1e1e1e;
+  }
+  

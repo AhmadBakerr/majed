@@ -1,0 +1,56 @@
+.billing-body {
+  font-family: Arial, sans-serif;
+  background-color: #333333;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.billing-form-container {
+  background-color: #333333;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.25);
+  width: 100%;  
+  max-width: 500px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.billing-form-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.billing-form-logo {
+  width: 250px;  
+  height: auto;
+}
+
+.billing-form input[type="text"], .billing-form input[type="email"], .billing-form select, .billing-form input[type="submit"] {
+  width: 100%;  
+  padding: 15px;
+  margin: 5px 0;  
+  border: 2px solid #ff6600;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.billing-form input[type="submit"] {
+  background-color: #ff6600;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.billing-form input[type="submit"]:hover {
+  background-color: #cc5200;
+}

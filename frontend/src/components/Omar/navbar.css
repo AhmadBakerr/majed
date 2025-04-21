@@ -1,0 +1,79 @@
+/* navbar.css */
+.navbar {
+    background-color: #333; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+ls src/components/Omar/
+
+.navbar-logo {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+.navbar-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #ff7f00; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.se {
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    width: 200px; 
+    background-color: white;
+}
+
+.search-button {
+    background-color: #ff7f00; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    background-color: #cc6a00;
+}
+
+.user-icon {
+    width: 40px; 
+    height: auto;
+    margin-left: 10px;
+}
+body{
+    margin: 0px;
+}

@@ -1,0 +1,13 @@
+https: //github.com/axios/axios
+https: //legacy.reactjs.org/docs/forms.html
+/* #region w3 */
+https: //www.w3schools.com/
+https: //www.w3schools.com/react/react_router.asp
+https: //www.w3schools.com/react/react_useeffect.asp
+https: //www.w3schools.com/react/react_usestate.asp
+https: //www.w3schools.com/react/react_useref.asp
+/* #endregion */
+https://www.youtube.com/watch?v=-4XpG5_Lj_o
+https://www.youtube.com/watch?v=0ZJgIjIuY7U
+https://www.youtube.com/watch?v=12l6lkW6JhE
+https://www.youtube.com/watch?v=ZEKBDXGnD4s

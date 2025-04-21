@@ -1,0 +1,62 @@
+
+.helppage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    background-color: #f9f9f9;
+}
+
+.helppage-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 32px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.helppage-form h2 {
+    margin-bottom: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.helppage-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000; 
+    font-weight: bold;
+}
+
+.helppage-form input,
+.helppage-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.helppage-form input:focus,
+.helppage-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.helppage-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.helppage-form button:hover {
+    background-color: #0056b3;
+}
